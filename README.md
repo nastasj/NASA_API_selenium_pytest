@@ -3,8 +3,7 @@
 ```
 $ git clone https://github.com/nastasj/API_NASA_selenium_pytest.git
 $ cd API_NASA_selenium_pytest
-$ virtualenv -p python3 venv   # Create virtual environment
-$ source venv/bin/activate # Activate virtual environment
+Create and activate virtual environment as you usually do
 $ pip install -r requirements.txt
 $ pytest
 ``` 
@@ -16,3 +15,4 @@ $ pytest --alluredir=allure-results
 $ allure generate allure-results
 $ allure open
 ``` 
+![allure](https://user-images.githubusercontent.com/78635647/110435153-b3e46580-80c3-11eb-9648-381852bad345.png)
