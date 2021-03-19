@@ -1,5 +1,6 @@
 import pytest
 import requests
+import allure
 
 
 class APIClient:
@@ -28,3 +29,6 @@ def pytest_addoption(parser):
 def api_client(request):
     base_url = request.config.getoption("--url")
     return APIClient(base_address=base_url)
+
+
+

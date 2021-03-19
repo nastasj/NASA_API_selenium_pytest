@@ -4,6 +4,7 @@ from PIL import Image
 import requests
 import sys
 
+
 def test_api_status_ok(api_client):
     res = api_client.get()
     assert res.ok
